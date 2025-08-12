@@ -10,154 +10,154 @@ const Gallery = () => {
 
   const allImages = [
     {
-      src: "/images/1e6d1ee0-1cfb-41f6-b516-aed32f733a33.png",
+      src: "images/1e6d1ee0-1cfb-41f6-b516-aed32f733a33.png",
       alt: "Exterior aerial view of Jubilee Residences",
       title: "Aerial View"
     },
     {
-      src: "/images/098b3b7e-5c54-48eb-a222-d6bf3a8805fd.png",
+      src: "images/098b3b7e-5c54-48eb-a222-d6bf3a8805fd.png",
       alt: "Side view of apartment buildings",
       title: "Building Exterior"
     },
     {
-      src: "/images/2f2ee9cc-d982-4de3-9fc4-b813459cabc3.png",
+      src: "images/2f2ee9cc-d982-4de3-9fc4-b813459cabc3.png",
       alt: "Full complex aerial view",
       title: "Complete Complex"
     },
     {
-      src: "/images/46c9647c-efa0-49f8-8cf6-096ae73da809.png",
+      src: "images/46c9647c-efa0-49f8-8cf6-096ae73da809.png",
       alt: "Front view of Jubilee Residences",
       title: "Front Entrance"
     },
     {
-      src: "/images/05d27df9-ba59-449e-b40b-25a6b8290bec.png",
+      src: "images/05d27df9-ba59-449e-b40b-25a6b8290bec.png",
       alt: "Main entrance with brick archway",
       title: "Main Entrance"
     },
     {
-      src: "/images/612aca0b-3d15-4eca-a7b8-65a6b5b840c2.png",
+      src: "images/612aca0b-3d15-4eca-a7b8-65a6b5b840c2.png",
       alt: "Modern lobby reception area",
       title: "Lobby Reception"
     },
     {
-      src: "/images/527792fb-9c58-438c-a6cd-ed3527443b0d.png",
+      src: "images/527792fb-9c58-438c-a6cd-ed3527443b0d.png",
       alt: "Spacious community lobby",
       title: "Community Area"
     },
     {
-      src: "/images/c6968e26-ecb5-4311-a6a3-e69051ad5170.png",
+      src: "images/c6968e26-ecb5-4311-a6a3-e69051ad5170.png",
       alt: "Elegant lounge with fireplace",
       title: "Community Lounge"
     },
     {
-      src: "/images/5b60c731-c283-4b25-9a4c-b96257958b1f.png",
+      src: "images/5b60c731-c283-4b25-9a4c-b96257958b1f.png",
       alt: "Modern elevator area",
       title: "Elevator Lobby"
     },
     // Additional property images
     {
-      src: "/images/Jubilee-Residences (11).jpg",
+      src: "images/Jubilee-Residences (11).jpg",
       alt: "Property interior view",
       title: "Interior View"
     },
 
     {
-      src: "/images/Jubilee-Residences (13).jpg",
+      src: "images/Jubilee-Residences (13).jpg",
       alt: "Building details",
       title: "Building Details"
     },
     {
-      src: "/images/Jubilee-Residences (14).jpg",
+      src: "images/Jubilee-Residences (14).jpg",
       alt: "Property grounds",
       title: "Property Grounds"
     },
     {
-      src: "/images/Jubilee-Residences (15).jpg",
+      src: "images/Jubilee-Residences (15).jpg",
       alt: "Exterior features",
       title: "Exterior Features"
     },
     {
-      src: "/images/Jubilee-Residences (16).jpg",
+      src: "images/Jubilee-Residences (16).jpg",
       alt: "Community spaces",
       title: "Community Spaces"
     },
     {
-      src: "/images/Jubilee-Residences (17).jpg",
+      src: "images/Jubilee-Residences (17).jpg",
       alt: "Property view",
       title: "Property View"
     },
     {
-      src: "/images/Jubilee-Residences (18).jpg",
+      src: "images/Jubilee-Residences (18).jpg",
       alt: "Building architecture",
       title: "Architecture"
     },
     {
-      src: "/images/Jubilee-Residences (19).jpg",
+      src: "images/Jubilee-Residences (19).jpg",
       alt: "Landscaping",
       title: "Landscaping"
     },
     {
-      src: "/images/Jubilee-Residences (20).jpg",
+      src: "images/Jubilee-Residences (20).jpg",
       alt: "Property features",
       title: "Property Features"
     },
     {
-      src: "/images/Jubilee-Residences (21).jpg",
+      src: "images/Jubilee-Residences (21).jpg",
       alt: "Building exterior",
       title: "Building Exterior"
     },
     {
-      src: "/images/Jubilee-Residences (22).jpg",
+      src: "images/Jubilee-Residences (22).jpg",
       alt: "Community area",
       title: "Community Area"
     },
     {
-      src: "/images/Jubilee-Residences (23).jpg",
+      src: "images/Jubilee-Residences (23).jpg",
       alt: "Property details",
       title: "Property Details"
     },
     {
-      src: "/images/Jubilee-Residences (24).jpg",
+      src: "images/Jubilee-Residences (24).jpg",
       alt: "Residential view",
       title: "Residential View"
     },
     {
-      src: "/images/Jubilee-Residences (25).jpg",
+      src: "images/Jubilee-Residences (25).jpg",
       alt: "Property amenities",
       title: "Property Amenities"
     },
     {
-      src: "/images/Jubilee-Residences (26).jpg",
+      src: "images/Jubilee-Residences (26).jpg",
       alt: "Building features",
       title: "Building Features"
     },
     {
-      src: "/images/Jubilee-Residences (27).jpg",
+      src: "images/Jubilee-Residences (27).jpg",
       alt: "Exterior design",
       title: "Exterior Design"
     },
     {
-      src: "/images/Jubilee-Residences (28).jpg",
+      src: "images/Jubilee-Residences (28).jpg",
       alt: "Property layout",
       title: "Property Layout"
     },
     {
-      src: "/images/Jubilee-Residences (29).jpg",
+      src: "images/Jubilee-Residences (29).jpg",
       alt: "Community features",
       title: "Community Features"
     },
     {
-      src: "/images/Jubilee-Residences (30).jpg",
+      src: "images/Jubilee-Residences (30).jpg",
       alt: "Building design",
       title: "Building Design"
     },
     {
-      src: "/images/Jubilee-Residences (31).jpg",
+      src: "images/Jubilee-Residences (31).jpg",
       alt: "Property overview",
       title: "Property Overview"
     },
     {
-      src: "/images/Jubilee-Residences (32).jpg",
+      src: "images/Jubilee-Residences (32).jpg",
       alt: "Residential features",
       title: "Residential Features"
     },
