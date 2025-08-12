@@ -5,7 +5,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/jubilee-edmond-living/' : '/',
+  base: mode === 'production' ? '/jubileestudioapts.com/' : '/',
   server: {
     host: "::",
     port: 8080,
