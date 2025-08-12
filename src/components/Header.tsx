@@ -47,12 +47,23 @@ const Header = () => {
           </button>
         </nav>
 
-        <Button 
-          onClick={() => scrollToSection('contact')}
-          className="bg-primary hover:bg-primary/90 text-primary-foreground"
-        >
-          Get in Touch
-        </Button>
+        <div className="flex space-x-2 sm:space-x-3">
+          <Button 
+            onClick={() => window.open('https://example.com', '_blank')}
+            variant="outline"
+            className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-xs sm:text-sm px-2 sm:px-4 py-1 sm:py-2"
+          >
+            <span className="hidden sm:inline">Apply Now</span>
+            <span className="sm:hidden">Apply</span>
+          </Button>
+          <Button 
+            onClick={() => scrollToSection('contact')}
+            className="bg-primary hover:bg-primary/90 text-primary-foreground text-xs sm:text-sm px-2 sm:px-4 py-1 sm:py-2"
+          >
+            <span className="hidden sm:inline">Get in Touch</span>
+            <span className="sm:hidden">Contact</span>
+          </Button>
+        </div>
       </div>
     </header>
   );
