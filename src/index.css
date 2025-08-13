@@ -44,7 +44,7 @@ All colors MUST be HSL.
     
     /* Gradients */
     --gradient-brick: linear-gradient(135deg, hsl(12 76% 61%), hsl(14 40% 75%));
-    --gradient-hero: linear-gradient(135deg, hsl(12 76% 61% / 0.3), hsl(20 14% 16% / 0.2));
+    --gradient-hero: linear-gradient(135deg, hsl(12 76% 61% / 0.7), hsl(20 14% 16% / 0.7));
     --gradient-subtle: linear-gradient(180deg, hsl(0 0% 98%), hsl(20 43% 96%));
     
     /* Shadows */

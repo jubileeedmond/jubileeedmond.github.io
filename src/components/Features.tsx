@@ -39,7 +39,7 @@ const Features = () => {
     },
     {
       icon: Hospital,
-      title: "Near OU Medical",
+      title: "Near OU Medical Center",
       description: "Convenient access to OU Medical Center for healthcare professionals"
     },
     {

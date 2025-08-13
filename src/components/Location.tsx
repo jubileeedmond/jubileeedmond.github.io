@@ -29,7 +29,7 @@ const Location = () => {
     },
     {
       icon: Utensils,
-      name: "Chick-fil-A, McDonald's, Panda Express, Taco Bell, Cane's, Cava, Chipotle, and more!",
+      name: "Chick-fil-A, McDonald's, Panda Express, Taco Bell, Cane's, Cava, and more!",
       category: "Fast Food",
       distance: "Close by"
     },

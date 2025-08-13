@@ -49,7 +49,7 @@ const Header = () => {
 
         <div className="flex space-x-2 sm:space-x-3">
           <Button 
-            onClick={() => window.open('https://example.com', '_blank')}
+            onClick={() => window.open('https://www.rentcafe.com/onlineleasing/apartmentsforrent/oleapplication.aspx?propleadsource_2130086=rentcafe&stepname=Apartments&myOlePropertyId=2130086', '_blank')}
             variant="outline"
             className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-xs sm:text-sm px-2 sm:px-4 py-1 sm:py-2"
           >
@@ -60,7 +60,7 @@ const Header = () => {
             onClick={() => scrollToSection('contact')}
             className="bg-primary hover:bg-primary/90 text-primary-foreground text-xs sm:text-sm px-2 sm:px-4 py-1 sm:py-2"
           >
-            <span className="hidden sm:inline">Schedule a Tour</span>
+            <span className="hidden sm:inline">Schedule Tour</span>
             <span className="sm:hidden">Tour</span>
           </Button>
         </div>
