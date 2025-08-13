@@ -5,5 +5,5 @@ cd <YOUR_PROJECT_NAME>
 npm i
 npm run dev
 
-# open http://localhost:8080/index.dev.html during development
+# open http://localhost:8080/ during development
 ```
