@@ -1,3 +1,5 @@
+Sitemap: https://jubileeedmond.github.io/sitemap.xml
+
 User-agent: Googlebot
 Allow: /
 
