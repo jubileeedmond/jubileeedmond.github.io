@@ -5,8 +5,8 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // Use absolute base path so built assets load correctly on GitHub Pages
-  base: '/',
+  // Use relative base path for GitHub Pages deployment
+  base: './',
   server: {
     host: "::",
     port: 8080,

@@ -60,8 +60,8 @@ const Header = () => {
             onClick={() => scrollToSection('contact')}
             className="bg-primary hover:bg-primary/90 text-primary-foreground text-xs sm:text-sm px-2 sm:px-4 py-1 sm:py-2"
           >
-            <span className="hidden sm:inline">Get in Touch</span>
-            <span className="sm:hidden">Contact</span>
+            <span className="hidden sm:inline">Schedule a Tour</span>
+            <span className="sm:hidden">Tour</span>
           </Button>
         </div>
       </div>
