@@ -5,7 +5,8 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? 'jubileeedmond.github.io/' : '/',
+  // Use absolute base path so built assets load correctly on GitHub Pages
+  base: '/',
   server: {
     host: "::",
     port: 8080,
